@@ -58,7 +58,7 @@ from .logging import get_logger, NDEBUG
 
 T = TypeVar("T")
 
-logger = get_logger("shark_turbine.serving.session")
+logger = get_logger("iree.turbine.serving.session")
 _CONFIG_LOCK = Lock()
 _GLOBAL_VM_INSTANCE: Optional[VmInstance] = None
 
